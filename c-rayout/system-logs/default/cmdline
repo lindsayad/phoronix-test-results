@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-4.15.0-20-generic root=UUID=cc4deca8-129e-476b-b683-9ac2fd6aad46 ro quiet splash vt.handoff=1

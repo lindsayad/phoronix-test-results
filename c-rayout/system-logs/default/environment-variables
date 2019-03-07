@@ -1,0 +1,4 @@
+PATH=/opt/moose/icecream/libexec/icecc/bin:/opt/moose/icecream/sbin:/opt/moose/icecream/bin:/home/lindad/libmesh/contrib/autotools/bin:/opt/moose/ccache-3.2.1/bin:/opt/moose/cppunit-1.12.1/clang-6.0.1/bin:/opt/moose/mpich-3.2/clang-6.0.1/bin:/opt/moose/llvm-6.0.1/bin:/opt/moose/gcc-7.3.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/lindad/bash
+LD_LIBRARY_PATH=/opt/moose/cppunit-1.12.1/clang-6.0.1/lib:/opt/moose/tbb-2018_U3/lib:/opt/moose/mpich-3.2/clang-6.0.1/lib:/opt/moose/llvm-6.0.1/lib:/opt/moose/gcc-7.3.1/lib64:/opt/moose/gcc-7.3.1/lib:/opt/moose/gcc-7.3.1/lib/gcc/x86_64-pc-linux-gnu/7.3.1:/home/lindad/projects/moose/libmesh/installed/lib
+CC=ccache clang
+CXX=ccache clang++

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.6.1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>c-ray-performance-out</Title>
+    <LastModified>2019-03-07 15:18:53</LastModified>
+    <TestClient>Phoronix Test Suite v8.6.1 (Spydeberg)</TestClient>
+    <Description>Intel Xeon E5-2697 v2 testing with a Apple Mac-F60DEB81FF30ACF6 (MP61.88Z.0124.B00.1804111223 BIOS) and AMD Radeon HD 7970/8970 OEM / R9 280X 6GB on LinuxMint 19.1 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>performance</Identifier>
+    <Hardware>Processor: Intel Xeon E5-2697 v2 @ 3.50GHz (12 Cores / 24 Threads), Motherboard: Apple Mac-F60DEB81FF30ACF6 (MP61.88Z.0124.B00.1804111223 BIOS), Chipset: Intel Xeon E7 v2/Xeon, Memory: 32768MB, Disk: 1000GB Western Digital WD1002FAEX-0 + 1001GB APPLE SSD SM1024, Graphics: AMD Radeon HD 7970/8970 OEM / R9 280X 6GB, Audio: Cirrus Logic CS4208, Monitor: PA328, Network: 2 x Broadcom NetXtreme BCM57762 PCIe + Broadcom BCM4360 802.11ac</Hardware>
+    <Software>OS: LinuxMint 19.1, Kernel: 4.15.0-20-generic (x86_64), Desktop: MATE 1.20.1, Display Server: X Server 1.19.6, Display Driver: modesetting 1.19.6, OpenGL: 4.5 Mesa 18.0.5 (LLVM 6.0.0), Compiler: Clang 6.0.1 + LLVM 6.0.1, File-System: ext4, Screen Resolution: 3840x2160</Software>
+    <User>lindad</User>
+    <TimeStamp>2019-03-07 15:13:08</TimeStamp>
+    <TestClientVersion>8.6.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--disable-multilib --enable-checking=release --enable-host-shared --enable-languages=c,c++,fortran,jit --with-pic","cpu-scaling-governor":"intel_pstate performance","security":"KPTI + __user pointer sanitization + Full generic retpoline IBPB IBRS_FW"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/c-ray-1.2.0</Identifier>
+    <Title>C-Ray</Title>
+    <AppVersion>1.1</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total Time - 4K, 16 Rays Per Pixel</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>performance</Identifier>
+        <Value>111.88</Value>
+        <RawString>110.865:112.523:112.253</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm -lpthread -O3"},"test-run-times":"112.54:113.84:113.74"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
